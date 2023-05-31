@@ -1,0 +1,12 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 80%;
+    margin-top: 3%;
+}
+.cabecalho-botoes-conteiner{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+}
+
