@@ -1,0 +1,19 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border-bottom: solid black 1px;
+    border-bottom-width: 1px;
+    padding-bottom: 2%;
+}
+.cabecalho-botoes-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}

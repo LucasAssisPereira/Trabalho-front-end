@@ -1,0 +1,38 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    border-bottom: solid black 1px;
+    border-bottom-width: 1px;
+    padding-bottom: 2%;
+}
+.cabecalho-botoes-conteiner{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.conteudo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 3%;
+}
+.conteudo-conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30rem;
+}
+.conteudo-conteiner-secundario{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
