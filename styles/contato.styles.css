@@ -1,15 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
 .cabecalho{
+    background-color: black;
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
     border-bottom: solid black 1px;
     border-bottom-width: 1px;
     padding-bottom: 2%;
 }
 .cabecalho-botoes-conteiner{
+    background-color: black;
+    color: silver;
     display: flex;
     justify-content: space-evenly;
     gap: 3rem;
+    margin-right: 2%;
+}
+.cabecalho-botoes{
+    margin-top: 10%;
+    text-decoration: none;
+    color: silver;
+    background-color: black;
+}
+
+.cabecalho-icon{
+    margin-top: 1rem;
+    margin-left: 2%;
 }
 
 .rodape{
