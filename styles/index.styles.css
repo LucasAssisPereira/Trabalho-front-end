@@ -25,6 +25,9 @@
     color: silver;
     background-color: black;
 }
+.cabecalho-botoes:hover{
+    color: white;
+}
 
 .cabecalho-icon{
     margin-top: 1rem;

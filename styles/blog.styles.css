@@ -25,11 +25,15 @@
     color: silver;
     background-color: black;
 }
+.cabecalho-botoes:hover{
+    color: white;
+}
 
 .cabecalho-icon{
     margin-top: 1rem;
     margin-left: 2%;
 }
+
 .rodape{
     display: flex;
     justify-content: center;
