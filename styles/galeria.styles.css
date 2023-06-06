@@ -33,8 +33,27 @@
     margin-top: 1rem;
     margin-left: 2%;
 }
+.conteudo-conteiner-conteiner{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px;
+    gap: 40px;
+}
+.conteudo-conteiner-conteiner-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    width: 250px;
+    
+}
 
-
+.conteudo-conteiner-conteiner-img{
+    width: 192px;
+    height: 141px;
+}
 .rodape{
     display: flex;
     justify-content: center;
