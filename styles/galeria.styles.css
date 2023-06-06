@@ -7,6 +7,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: solid black 1px;
     border-bottom-width: 1px;
     padding-bottom: 2%;
@@ -37,16 +38,19 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 300px;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 400px;
     gap: 40px;
 }
 .conteudo-conteiner-conteiner-conteiner{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 1px black solid;
     width: 250px;
+    height: 250px;
+    gap: 20px;
     
 }
 

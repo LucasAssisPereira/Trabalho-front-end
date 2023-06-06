@@ -7,6 +7,7 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: solid black 1px;
     border-bottom-width: 1px;
     padding-bottom: 2%;
@@ -20,13 +21,39 @@
     margin-right: 2%;
 }
 .cabecalho-botoes{
-    margin-top: 10%;
+    margin-top: 10px;
     text-decoration: none;
     color: silver;
     background-color: black;
 }
 .cabecalho-botoes:hover{
     color: white;
+}
+
+.conteudo__titulo{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.conteudo__content{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    justify-content: center;
+    gap: 100px;
+}
+.conteudo__content__conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.conteudo__content__conteiner__img{
+    width: 345px;
+    height: 145px;
 }
 
 .cabecalho-icon{
