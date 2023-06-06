@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+}
+.cabecalho{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+    border-bottom-width: 1px;
+    padding-bottom: 2%;
+}
+.cabecalho-botoes-conteiner{
+    background-color: black;
+    color: silver;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin-right: 2%;
+}
+.cabecalho-botoes{
+    margin-top: 10%;
+    text-decoration: none;
+    color: silver;
+    background-color: black;
+}
+.cabecalho-botoes:hover{
+    color: white;
+}
+
+.cabecalho-icon{
+    margin-top: 1rem;
+    margin-left: 2%;
+}
+
+.conteudo{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    padding: 3%;
+}
+.conteudo-conteiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5rem;
+}
+.conteudo-conteiner-secundario{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10%;
+}
+.conteudo-titulo{
+    display: flex;
+    align-self: center;
+    color: black;
+}
+.conteudo-imagem-principal{
+    width: 800px;
+    height: 400px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+.conteudo-imagem-secundaria{
+    width: 345px;
+    height: 145px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
